@@ -1,0 +1,17 @@
+.\game.o: game.c
+.\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\game.o: random.h
+.\game.o: ST7735.h
+.\game.o: PLL.h
+.\game.o: tm4c123gh6pm.h
+.\game.o: bitmaps.h
+.\game.o: joystick.h
+.\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\game.o: hud.h
+.\game.o: Menu.h
+.\game.o: display_consts.h
+.\game.o: game_consts.h
+.\game.o: game_vars.h
+.\game.o: game_task.h

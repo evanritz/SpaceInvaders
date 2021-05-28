@@ -1,0 +1,89 @@
+Dependencies for Project 'GameV1', Target 'GameV1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup.s)(0x608AF43F)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 533"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\PLL.c)(0x608AF43E)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="533" -Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLL.h)(0x608AF43E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EE582)
+I (tm4c123gh6pm.h)(0x608AF43F)
+F (.\ST7735.c)(0x608AF43E)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="533" -Drvmdk -DPART_LM4F120H5QR-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8EE582)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EE582)
+I (ST7735.h)(0x608AF43E)
+I (tm4c123gh6pm.h)(0x608AF43F)
+F (.\joystick.c)(0x608AF43E)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="533" -Drvmdk -DPART_LM4F120H5QR-o .\joystick.o --omf_browse .\joystick.crf --depend .\joystick.d)
+I (tm4c123gh6pm.h)(0x608AF43F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EE582)
+I (joystick.h)(0x608AF43E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8EE582)
+F (.\joystick.h)(0x608AF43E)()
+F (.\bitmaps.c)(0x608AF43C)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="533" -Drvmdk -DPART_LM4F120H5QR-o .\bitmaps.o --omf_browse .\bitmaps.crf --depend .\bitmaps.d)
+I (bitmaps.h)(0x608AF43C)
+F (.\bitmaps.h)(0x608AF43C)()
+F (.\hud.c)(0x608AF43D)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="533" -Drvmdk -DPART_LM4F120H5QR-o .\hud.o --omf_browse .\hud.crf --depend .\hud.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8EE582)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8EE582)
+I (hud.h)(0x608AF43E)
+I (ST7735.h)(0x608AF43E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EE582)
+I (bitmaps.h)(0x608AF43C)
+I (display_funcs.h)(0x608AF43D)
+I (display_consts.h)(0x608AF43D)
+F (.\hud.h)(0x608AF43E)()
+F (.\Menu.c)(0x608AF43E)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="533" -Drvmdk -DPART_LM4F120H5QR-o .\menu.o --omf_browse .\menu.crf --depend .\menu.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8EE582)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8EE582)
+I (display_consts.h)(0x608AF43D)
+I (Menu.h)(0x608AF43E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EE582)
+I (ST7735.h)(0x608AF43E)
+I (joystick.h)(0x608AF43E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8EE582)
+I (display_funcs.h)(0x608AF43D)
+I (game_vars.h)(0x608AF43D)
+I (game_consts.h)(0x608AF43D)
+F (.\Menu.h)(0x608AF43E)()
+F (.\display_consts.h)(0x608AF43D)()
+F (.\display_funcs.c)(0x608AF43D)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="533" -Drvmdk -DPART_LM4F120H5QR-o .\display_funcs.o --omf_browse .\display_funcs.crf --depend .\display_funcs.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8EE582)
+I (display_funcs.h)(0x608AF43D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EE582)
+I (display_consts.h)(0x608AF43D)
+I (ST7735.h)(0x608AF43E)
+F (.\display_funcs.h)(0x608AF43D)()
+F (.\game_consts.h)(0x608AF43D)()
+F (.\random.h)(0x608AF43E)()
+F (.\random.s)(0x608AF43E)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 533"--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\game_vars.h)(0x608AF43D)()
+F (.\game_vars.c)(0x608AF43D)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="533" -Drvmdk -DPART_LM4F120H5QR-o .\game_vars.o --omf_browse .\game_vars.crf --depend .\game_vars.d)
+I (game_vars.h)(0x608AF43D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EE582)
+I (game_consts.h)(0x608AF43D)
+I (display_consts.h)(0x608AF43D)
+F (.\game_task.h)(0x608AF43D)()
+F (.\game_task.c)(0x608AF43D)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="533" -Drvmdk -DPART_LM4F120H5QR-o .\game_task.o --omf_browse .\game_task.crf --depend .\game_task.d)
+I (game_task.h)(0x608AF43D)
+I (tm4c123gh6pm.h)(0x608AF43F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EE582)
+I (joystick.h)(0x608AF43E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8EE582)
+I (game_vars.h)(0x608AF43D)
+I (game_consts.h)(0x608AF43D)
+I (display_consts.h)(0x608AF43D)
+I (random.h)(0x608AF43E)
+F (.\game.c)(0x608AF43D)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="533" -Drvmdk -DPART_LM4F120H5QR-o .\game.o --omf_browse .\game.crf --depend .\game.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8EE582)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8EE582)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EE582)
+I (random.h)(0x608AF43E)
+I (ST7735.h)(0x608AF43E)
+I (PLL.h)(0x608AF43E)
+I (tm4c123gh6pm.h)(0x608AF43F)
+I (bitmaps.h)(0x608AF43C)
+I (joystick.h)(0x608AF43E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8EE582)
+I (hud.h)(0x608AF43E)
+I (Menu.h)(0x608AF43E)
+I (display_consts.h)(0x608AF43D)
+I (game_consts.h)(0x608AF43D)
+I (game_vars.h)(0x608AF43D)
+I (game_task.h)(0x608AF43D)

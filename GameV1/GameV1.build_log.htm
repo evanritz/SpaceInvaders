@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Evan  , FakeCompany LLC, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.33.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Evan\Downloads\CPE355_TRIUMPH_Ritz\CPE355_TRIUMPH_Ritz\GameV1\GameV1.uvproj
+Project File Date:  04/29/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'GameV1'
+assembling startup.s...
+compiling PLL.c...
+compiling ST7735.c...
+compiling bitmaps.c...
+compiling joystick.c...
+compiling Menu.c...
+compiling hud.c...
+compiling display_funcs.c...
+assembling random.s...
+compiling game_vars.c...
+compiling game_task.c...
+game_task.c(254): warning:  #177-D: variable "spl_y1"  was declared but never referenced
+  		int spl_y1 = spl_y0 + spl_h;
+game_task.c: 1 warning, 0 errors
+compiling game.c...
+game.c(273): warning:  #69-D: integer conversion resulted in truncation
+  	Random_Init(9840423750);
+game.c(373): warning:  #111-D: statement is unreachable
+  	DelayWait10ms(100);
+game.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=8896 RO-data=8880 RW-data=112 ZI-data=2624  
+".\GameV1.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

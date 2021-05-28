@@ -1,0 +1,10 @@
+.\game_task.o: game_task.c
+.\game_task.o: game_task.h
+.\game_task.o: tm4c123gh6pm.h
+.\game_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\game_task.o: joystick.h
+.\game_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\game_task.o: game_vars.h
+.\game_task.o: game_consts.h
+.\game_task.o: display_consts.h
+.\game_task.o: random.h

@@ -1,0 +1,9 @@
+.\hud.o: hud.c
+.\hud.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\hud.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\hud.o: hud.h
+.\hud.o: ST7735.h
+.\hud.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\hud.o: bitmaps.h
+.\hud.o: display_funcs.h
+.\hud.o: display_consts.h
